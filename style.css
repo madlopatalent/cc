@@ -8,14 +8,14 @@ body {
   color: black;
   background-color: black;
   background-image: url('PHOTO-2024-09-11-08-05-43 (1).jpg');
-  /* background-size: contain; */
+  background-size:85%;
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0.85;
 }
 h1,h2 {
-  border: 10px solid white; /* Adjust border width and color as needed */
-  padding: 15px; /* Add padding for space around the text */
+  border:10em; /* Adjust border width and color as needed */
+  padding: 5px; /* Add padding for space around the text */
   display:flexbox; 
   background-color: white; /* Set the background color to white */
   border-width: 1px;
@@ -90,7 +90,7 @@ select {
   border-left: var(--size) solid transparent;
   border-right: var(--size) solid transparent;
   border-bottom: var(--size) solid rgba(255, 255, 255, 0.5);
-  top: 30%;
+  top: 20%;
 }
 
 .custom-arrow::after {
@@ -104,9 +104,9 @@ select {
   width: 80%;
   padding: 20px;
   border-radius: 40px;
-  background: transparent;
+  /* background: transparent; */
   /* box-shadow: 20px 20px 20px #cbced1, -20px -20px 20px #ffffff; */
-  /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .title {
@@ -174,7 +174,7 @@ select {
   color: #fff;
   text-align: center;
   background: #00b36a;
-  /* box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff; */
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
   transition: .2s;
 }
 
@@ -214,7 +214,7 @@ select {
 #waste-output {
   margin: 40px;
   border-radius: 15px;
-  /* box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff; */
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #ffffff;
   padding: 10px 20px;
   display: none;
 }
